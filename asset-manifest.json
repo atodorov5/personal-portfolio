@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Digital-Business-Card/static/css/main.321754ac.css",
+    "main.js": "/Digital-Business-Card/static/js/main.deb6e08d.js",
+    "static/js/787.2146611e.chunk.js": "/Digital-Business-Card/static/js/787.2146611e.chunk.js",
+    "static/media/nasko.jpg": "/Digital-Business-Card/static/media/nasko.54062fd8c6017f391203.jpg",
+    "static/media/instagram.png": "/Digital-Business-Card/static/media/instagram.2d5cedd576ca1a740d7c.png",
+    "static/media/github.png": "/Digital-Business-Card/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/facebook.png": "/Digital-Business-Card/static/media/facebook.01a470d813915c298403.png",
+    "index.html": "/Digital-Business-Card/index.html",
+    "main.321754ac.css.map": "/Digital-Business-Card/static/css/main.321754ac.css.map",
+    "main.deb6e08d.js.map": "/Digital-Business-Card/static/js/main.deb6e08d.js.map",
+    "787.2146611e.chunk.js.map": "/Digital-Business-Card/static/js/787.2146611e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.321754ac.css",
+    "static/js/main.deb6e08d.js"
+  ]
+}
