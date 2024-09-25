@@ -1,25 +1,6 @@
-body {
-  margin: 0;
-  font-family: inter, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: table-cell;
-  vertical-align: middle;
-  padding: 12px 44px;
-  background-color: #23252C;
-  color: white;
-}
-
-html, body {
-  height: 100%;
-}
-
-html {
-  display: table;
-  margin: auto;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -28,7 +9,7 @@ code {
 
 .profilepic{
   margin: 0;
-  width: 317px;
+  width: 50px;
   border-radius: 10px;
 }
 

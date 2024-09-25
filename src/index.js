@@ -1,21 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { StrictMode } from 'react';
 import './index.css';
-import Info from "./Info"
-import About from "./About"
-import Interests from './Interests';
-import Footer from './Footer';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Header } from './components/Header';
+import { createRoot } from 'react-dom/client';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <div className='bissunessCard'>
-      <Info />
-      <About />
-      <Interests />
-      <Footer />
-    </div>
-  </React.StrictMode>,
+const root = createRoot(document.getElementById('root'));
+
+root.render(
+  <StrictMode>
+    <Header></Header>
+    <App></App>
+  </StrictMode>,
   document.getElementById('root')
 );
 // If you want to start measuring performance in your app, pass a function
