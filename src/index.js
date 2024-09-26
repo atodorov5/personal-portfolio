@@ -1,18 +1,16 @@
-import React, { StrictMode } from 'react';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { Header } from './components/Header';
-import { createRoot } from 'react-dom/client';
+import React, { StrictMode } from "react";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { Header } from "./components/Header";
+import { createRoot } from "react-dom/client";
 
-const root = createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById("root"));
 
 root.render(
   <StrictMode>
-    <Header></Header>
     <App></App>
-  </StrictMode>,
-  document.getElementById('root')
+  </StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
