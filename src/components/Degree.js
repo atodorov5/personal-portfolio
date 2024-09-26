@@ -4,14 +4,11 @@ export const Degree = ({
   fieldOfStudy,
   startDate,
   endDate,
+  imageSrc,
 }) => {
   return (
     <div className="max-w-sm border border-gray-200 rounded-lg shadow m-5 bg-darkGreen border-gray-700">
-      <img
-        className="rounded-t-lg"
-        src="https://media.istockphoto.com/id/1371896330/photo/happy-asian-woman-in-his-graduation-day.jpg?s=2048x2048&w=is&k=20&c=BPxRWW2giC8njzKbwYiZWtOFbDixv2jeXdYBYRUnNSo="
-        alt=""
-      />
+      <img className="rounded-t-lg h-56 w-96" src={imageSrc} alt="" />
       <div className="p-5">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-lightGrey">
           {fieldOfStudy}

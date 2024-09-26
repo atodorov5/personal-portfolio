@@ -38,6 +38,8 @@ export const EDUCATION = [
     fieldOfStudy: "Software and Internet Technologies",
     startDate: "September 2017",
     endDate: "July 2021",
+    imageSrc:
+      "https://img.freepik.com/free-photo/top-view-laptop-with-diploma-academic-cap_23-2148756573.jpg?t=st=1727350970~exp=1727354570~hmac=ecd5b365034d62781630ca1c9f086b1c03d909d88a7d84b2e5d9b4209b739499&w=1380",
   },
   {
     school: "Technical University of Varna",
@@ -45,5 +47,7 @@ export const EDUCATION = [
     fieldOfStudy: "CyberSecurity",
     startDate: "October 2021",
     endDate: "January 2023",
+    imageSrc:
+      "https://img.freepik.com/free-vector/technology-abstract-secure-background_23-2148335999.jpg?t=st=1727351119~exp=1727354719~hmac=968d66562e6191510968f2795f5406c7e5f3f1ca2f791f7d474d34049e13b535&w=1060",
   },
 ];
