@@ -6,8 +6,8 @@ export const Education = () => {
   return (
     <Section title="Education">
       <div className="flex">
-        {EDUCATION.map((education) => {
-          return <Degree {...education}></Degree>;
+        {EDUCATION.map((education, index) => {
+          return <Degree key={index} {...education}></Degree>;
         })}
       </div>
     </Section>
